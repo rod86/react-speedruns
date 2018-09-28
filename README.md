@@ -26,7 +26,7 @@ $ npm install
 $ npm start
 ```
 
-- Open the http://localhost:5000/ in the browser.
+- Open the http://localhost:3000/ in the browser.
 
 ## Build production
 
