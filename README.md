@@ -4,9 +4,9 @@ React Speedruns App
 Application to browse games speedruns.
 
 ## Versions
-Node v8.10.0
-npm v6.4.0
-React v16.5.2
+- Node v8.10.0
+- npm v6.4.0
+- React v16.5.2
 
 ## Setup
 
