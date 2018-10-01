@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store';
 
-import SpeedrunList from './components/Speedrun/SpeedrunList';
-import SpeedrunDetail from './components/Speedrun/SpeedrunDetail';
+import GamesList from './components/GamesList/GamesList';
+import GameDetails from './components/GameDetails/GameDetails';
 
 class App extends Component {
     render() {
@@ -13,8 +13,8 @@ class App extends Component {
                 <Provider store={store}>
                     <Router>
                         <Switch>
-                            <Route exact path="/" component={SpeedrunList} />
-                            <Route exact path="/view" component={SpeedrunDetail} />
+                            <Route exact path="/" component={GamesList} />
+                            <Route exact path="/game/:id" component={GameDetails} />
                         </Switch>
                     </Router>
                 </Provider>
